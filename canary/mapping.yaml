@@ -3,6 +3,7 @@ kind:  Mapping
 metadata:
   name:  echo
 spec:
+  hostname: '*'
   prefix: /echo
   rewrite: /echo
   service: echo-stable:80
